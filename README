@@ -1,0 +1,11 @@
+files:
+  -parse.py: parse the data set, output X and labels Y
+  -helper.py: helpful functions as computing sigmoid, crossEntropy, shuffledata and one-hot-key encoding.
+  -nN.py (for question a-g) 
+  -bN.py (for h) 
+  -dN.py (for i)
+
+run code:
+    python2.7 nN.py epoch batchSize decayFactor momentum l_r layer nodes1 nodes2
+
+The program will read your input and perform train and validation on "train.txt" and "val.txt", reporting the plots for errors, and visualize the parameter. And then run test on "test.txt" and report results.
